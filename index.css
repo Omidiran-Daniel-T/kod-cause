@@ -1,0 +1,41 @@
+.outer-wrap {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgb(19, 19, 19, 0.5), rgb(19, 19, 19, 0.5)),
+    url("images/changebg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.inner-wrap {
+  max-width: 400px;
+  height: 450px;
+  border-radius: 10px;
+}
+.reg-inner-wrap {
+  max-width: 400px;
+  height: 600px;
+  border-radius: 10px;
+}
+.w-45 {
+  width: 45%;
+}
+.name {
+  width: 45%;
+}
+.new-cause-wrap {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 50px;
+}
+.new-cause-btn {
+  width: 150px;
+  height: 50px;
+}
+.jumbotron {
+  height: 400px;
+}
+.other-card {
+  max-width: 22rem;
+  min-height: 32rem;
+  max-height: 32rem;
+}
