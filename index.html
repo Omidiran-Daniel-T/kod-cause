@@ -88,9 +88,15 @@
       class="bg-dark text-light d-flex justify-content-center align-items-center jumbotron"
     >
       <div class="text-center" style="height: 50%">
-        <div class="text-capitalize fs-1 fw-bold">Help change the world</div>
-        <div class="my-3">Over 4 million people taking action</div>
-        <a href="newcauselist.html" class="btn btn-danger fw-bold">
+        <div class="text-capitalize fs-1 fw-bold slide-down">
+          Help change the world
+        </div>
+        <div class="my-3 fade-in">Over 4 million people taking action</div>
+        <a
+          href="newcauselist.html"
+          class="btn btn-danger fw-bold slide-down"
+          id="start-btn"
+        >
           Start a Cause
         </a>
       </div>
@@ -661,6 +667,14 @@
     </footer>
 
     <!-- Scripts -->
+    <script src="./jquery-ui-1.13.1.custom/external/jquery/jquery.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".fade-in").hide().delay(500).fadeIn(1000);
+        $(".slide-down").hide().delay(500).slideDown(1000);
+      });
+      //   $(function () {});
+    </script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
       integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
